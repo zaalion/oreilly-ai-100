@@ -1,0 +1,42 @@
+Follow Up Course for AI-100
+===========================
+
+https://learning.oreilly.com/home/
+
+Azure Cognitive Services for Developers
+---------------------------------------
+https://learning.oreilly.com/videos/azure-cognitive-services/9781838552565
+
+Implementing Azure Cognitive Services with QnA Maker
+----------------------------------------------------
+https://learning.oreilly.com/videos/implementing-azure-cognitive/9781838556778
+
+Implementing Azure Cognitive Services for Language
+--------------------------------------------------
+https://learning.oreilly.com/videos/implementing-azure-cognitive/9781838558864
+
+Implementing Azure Cognitive Services for Vision
+------------------------------------------------
+https://learning.oreilly.com/videos/implementing-azure-cognitive/9781838557263
+
+Programming the Microsoft Bot Framework
+---------------------------------------
+https://learning.oreilly.com/videos/programming-the-microsoft/9780134835907
+
+Machine Learning In The Cloud With Azure Machine Learning
+---------------------------------------------------------
+https://learning.oreilly.com/videos/machine-learning-in/9781789347524
+
+Azure Search for Developers
+---------------------------
+https://learning.oreilly.com/videos/azure-search-for/9781771375184
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Microsoft Azure Cognitive Services Crash Course 
+(I'll make it free and provide the link in my LinkedIn and Twitter)
+-------------------------------------------------------------------
+https://www.udemy.com/course/azure-cognitive-services-crash-course/
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

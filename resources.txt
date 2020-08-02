@@ -1,0 +1,217 @@
+"Azure Certified AI Engineer Associate Crash Course" Resources
+==============================================================
+
+Exam AI-100: Designing and Implementing an Azure AI Solution
+------------------------------------------------------------
+https://docs.microsoft.com/en-us/learn/certifications/exams/ai-100
+
+Microsoft Certified: Azure AI Engineer Associate
+------------------------------------------------
+https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer
+
+AI-100 Exam Blueprint
+---------------------
+https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VEHf
+
+What are the machine learning products at Microsoft?
+----------------------------------------------------
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#azure-data-science-virtual-machine
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#azure-databricks
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#classic
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#azure-machine-learning
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#sql-server-machine-learning-services
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#microsoft-machine-learning-server
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#azure-cognitive-services
+
+Azure Machine Learning vs Machine Learning Studio (classic)
+-----------------------------------------------------------
+https://docs.microsoft.com/en-us/azure/machine-learning/compare-azure-ml-to-studio-classic
+
+What are Azure Cognitive Services?
+----------------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/welcome
+
+Azure Machine Learning
+----------------------
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning#azure-machine-learning
+
+Container Instances
+-------------------
+https://azure.microsoft.com/en-us/services/container-instances/
+
+What is the Azure Data Science Virtual Machine for Linux and Windows?
+---------------------------------------------------------------------
+https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview
+
+Data Storage
+------------
+https://azure.microsoft.com/en-ca/services/sql-database/
+https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview
+https://azure.microsoft.com/en-ca/services/cosmos-db/
+https://azure.microsoft.com/en-ca/services/search/
+
+An introduction to Azure Automation
+-----------------------------------
+https://docs.microsoft.com/en-us/azure/automation/automation-intro
+
+What is Azure Blueprints?
+-------------------------
+https://docs.microsoft.com/en-us/azure/governance/blueprints/overview
+
+Azure customer data protection
+------------------------------
+https://docs.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data
+
+Azure Data Subject Requests for the GDPR and CCPA
+-------------------------------------------------
+https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide
+
+Introduction to regulatory compliance
+-------------------------------------
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/policy-compliance/regulatory-compliance
+
+Azure customer data protection
+------------------------------
+https://docs.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data
+
+Trust Center
+------------
+https://www.microsoft.com/en-ca/trust-center
+
+Microsoft Azure — Where is my customer data?
+--------------------------------------------
+https://azuredatacentermap.azurewebsites.net/
+
+Tutorial: Create and manage policies to enforce compliance
+----------------------------------------------------------
+https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage
+
+Azure Databricks: A Brief Introduction
+--------------------------------------
+https://www.youtube.com/watch?v=cxyUy1bZ9mk
+
+Introduction to regulatory compliance
+-------------------------------------
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/policy-compliance/regulatory-compliance
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/policy-compliance/data-classification
+
+What is Azure Event Grid?
+-------------------------
+https://docs.microsoft.com/en-us/azure/event-grid/overview
+
+Which Azure pipeline technology should I use?
+---------------------------------------------
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines#which-azure-pipeline-technology-should-i-use
+
+What are Azure Machine Learning pipelines?
+------------------------------------------
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer
+
+https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-azure-active-directory
+
+Azure Cognitive Services
+------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell
+https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-a-single-service-subscription-key
+https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-an-authentication-token
+https://docs.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-azure-active-directory
+
+About Azure Bot Service
+-----------------------
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0&tabs=csharp
+https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/unit-test-bots?view=azure-bot-service-4.0&tabs=csharp
+https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-cortana?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-alexa?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-email?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-facebook?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-skype?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-slack?view=azure-bot-service-4.0&tabs=abs
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/skills-conceptual?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0&tabs=vs
+https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0
+https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-add-qna?view=azure-bot-service-4.0&tabs=csharp
+https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-start-conversation?view=azure-bot-service-3.0
+
+FPGA
+----
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#what-are-fpgas
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#fpga-support-in-azure
+https://docs.microsoft.com/en-us/python/api/azureml-accel-models/azureml.accel?view=azure-ml-py
+
+What are public, private and hybrid clouds?
+-------------------------------------------
+https://azure.microsoft.com/en-in/overview/what-are-private-public-hybrid-clouds/
+
+Customizing Azure Cognitive Services
+------------------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/translator/customization
+https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/
+https://docs.microsoft.com/en-us/azure/cognitive-services/bing-custom-search/tutorials/custom-search-web-page
+https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-custom-voice-create-voice
+https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-custom-speech
+https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/review-tool-user-guide/human-in-the-loop
+
+Azure Stream Analytics
+----------------------
+https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-solution-patterns
+https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-machine-learning-anomaly-detection
+https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-machine-learning-integration-tutorial
+https://docs.microsoft.com/en-us/azure/stream-analytics/functions-overview
+https://docs.microsoft.com/en-us/azure/stream-analytics/machine-learning-udf
+
+Azure Search
+------------
+https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search
+https://docs.microsoft.com/en-us/azure/search/cognitive-search-defining-skillset
+https://docs.microsoft.com/en-us/azure/search/search-get-started-portal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
