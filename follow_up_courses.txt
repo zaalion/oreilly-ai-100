@@ -31,12 +31,30 @@ Azure Search for Developers
 ---------------------------
 https://learning.oreilly.com/videos/azure-search-for/9781771375184
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
 Microsoft Azure Cognitive Services Crash Course 
 (I'll make it free and provide the link in my LinkedIn and Twitter)
 -------------------------------------------------------------------
 https://www.udemy.com/course/azure-cognitive-services-crash-course/
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+Microsoft Azure AI Engineer (AI-100) Pluralsight Path
+-----------------------------------------------------
+https://app.pluralsight.com/paths/certificate/microsoft-azure-ai-engineer-ai-100
+
+
+
+
+My Azure Cognitive Services Pluralsight courses 
+-----------------------------------------------
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-personalizer
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-ink-recognizer
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-immersive-reader
+https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-anomaly-detector
+https://app.pluralsight.com/library/courses/building-customized-translation-systems-azure-cognitive-services-translator
+
 
