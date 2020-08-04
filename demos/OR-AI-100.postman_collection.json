@@ -1,0 +1,550 @@
+{
+	"info": {
+		"_postman_id": "bec6d6ba-436b-40a3-be3f-71ffd424f80a",
+		"name": "OR-AI-100",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Translate Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Region",
+						"type": "text",
+						"value": "canadacentral"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "fca8bdabb0c8423ca7bc80b3300b1215"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\"Text\":\"L’API REST Synthèse vocale nécessite un jeton d’accès pour l’authentification. Pour obtenir un jeton d’accès, un échange est nécessaire.\"}\r\n]"
+				},
+				"url": {
+					"raw": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=en",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cognitive",
+						"microsofttranslator",
+						"com"
+					],
+					"path": [
+						"translate"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "3.0"
+						},
+						{
+							"key": "to",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Text to Speech Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZWdpb24iOiJjYW5hZGFjZW50cmFsIiwic3Vic2NyaXB0aW9uLWlkIjoiYzdiNDhjMzI4MjE4NGQ0YmFmY2FiNWQ4OTNhMDI3ZDciLCJwcm9kdWN0LWlkIjoiQ29nbml0aXZlU2VydmljZXMuUzAiLCJjb2duaXRpdmUtc2VydmljZXMtZW5kcG9pbnQiOiJodHRwczovL2FwaS5jb2duaXRpdmUubWljcm9zb2Z0LmNvbS9pbnRlcm5hbC92MS4wLyIsImF6dXJlLXJlc291cmNlLWlkIjoiL3N1YnNjcmlwdGlvbnMvMTk5NjljODEtZThmZi00NTg1LThjMmYtM2YxOTZiNTg4MjI3L3Jlc291cmNlR3JvdXBzL3JnLWNjLWNyYXNoLWNvdXJzZS9wcm92aWRlcnMvTWljcm9zb2Z0LkNvZ25pdGl2ZVNlcnZpY2VzL2FjY291bnRzL2NjLWNyYXNoLWNvdXJzZS0wMSIsInNjb3BlIjpbInNwZWVjaHRvaW50ZW50cyIsImh0dHBzOi8vYXBpLm1pY3Jvc29mdHRyYW5zbGF0b3IuY29tLyIsInNwZWVjaHNlcnZpY2VzIl0sImF1ZCI6WyJ1cm46bXMuc3BlZWNoIiwidXJuOm1zLmx1aXMuY2FuYWRhY2VudHJhbCIsInVybjptcy5taWNyb3NvZnR0cmFuc2xhdG9yIiwidXJuOm1zLnNwZWVjaHNlcnZpY2VzLmNhbmFkYWNlbnRyYWwiXSwiZXhwIjoxNTg4OTgwMTI4LCJpc3MiOiJ1cm46bXMuY29nbml0aXZlc2VydmljZXMifQ.2ZZifznXfdlLDeEUl5CFkqCYliwK-G7fBse0G-6HSyo",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ssml+xml",
+						"type": "text"
+					},
+					{
+						"key": "X-Microsoft-OutputFormat",
+						"value": "audio-16khz-128kbitrate-mono-mp3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<speak version='1.0' xml:lang='en-US'><voice xml:lang='en-US' xml:gender='Female'\r\n    name='en-CA-HeatherRUS'>\r\n        We are learning all about Microsoft Azure Cognitive Services! <break time=\"1000ms\" /> Make sure to check the documentation.\r\n</voice></speak>"
+				},
+				"url": {
+					"raw": "https://canadacentral.tts.speech.microsoft.com/cognitiveservices/v1",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"tts",
+						"speech",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"cognitiveservices",
+						"v1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Image Moderation Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "image/jpeg",
+						"type": "text"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "db65fcd38fa940248b2cdc2693495d57",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Reza/Google Drive/02-O'Reilly/01-Getting Started with Azure Cognitive Services/05-Demo-Material/Decision/moderation.jpg"
+					}
+				},
+				"url": {
+					"raw": "https://canadacentral.api.cognitive.microsoft.com/contentmoderator/moderate/v1.0/ProcessImage/OCR?enhanced=true&language=eng",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"contentmoderator",
+						"moderate",
+						"v1.0",
+						"ProcessImage",
+						"OCR"
+					],
+					"query": [
+						{
+							"key": "enhanced",
+							"value": "true"
+						},
+						{
+							"key": "language",
+							"value": "eng"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Text Moderation Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/plain",
+						"type": "text"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "db65fcd38fa940248b2cdc2693495d57",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "This is your email address abcd@ghi@b.com , your ip address is 192.168.0.1 and your name is John Smith with SSN of 417-30-8365"
+				},
+				"url": {
+					"raw": "https://canadacentral.api.cognitive.microsoft.com/contentmoderator/moderate/v1.0/ProcessText/Screen?autocorrect=true&PII=true&classify=true",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"contentmoderator",
+						"moderate",
+						"v1.0",
+						"ProcessText",
+						"Screen"
+					],
+					"query": [
+						{
+							"key": "autocorrect",
+							"value": "true"
+						},
+						{
+							"key": "PII",
+							"value": "true"
+						},
+						{
+							"key": "classify",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Image Search Demo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"type": "text",
+						"value": "77f5ebabe5514b3d8dda3395b621b3df"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": ""
+					}
+				},
+				"url": {
+					"raw": "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=m42%20nebula",
+					"protocol": "https",
+					"host": [
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"bing",
+						"v7.0",
+						"images",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "m42%20nebula"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Speech to Text Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "fca8bdabb0c8423ca7bc80b3300b1215",
+						"type": "text"
+					},
+					{
+						"key": "Content-type",
+						"value": "audio/wav",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Reza/Google Drive/03-Udemy/01-Cognitive-Services-Overview/03-clips/speech2text-demo.wav"
+					}
+				},
+				"url": {
+					"raw": "https://canadacentral.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=en-US",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"stt",
+						"speech",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"speech",
+						"recognition",
+						"conversation",
+						"cognitiveservices",
+						"v1"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ML Model Call",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer GrASka3oNGe6yFboKwDbzl8ZucdELDPb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Inputs\": {\r\n          \"WebServiceInput0\":\r\n          [\r\n              {\r\n                    \"Year\": \"2013\",\r\n                    \"Month\": \"4\",\r\n                    \"DayofMonth\": \"19\",\r\n                    \"DayOfWeek\": \"5\",\r\n                    \"Carrier\": \"DL\",\r\n                    \"OriginAirportID\": \"11433\",\r\n                    \"DestAirportID\": \"13303\",\r\n                    \"CRSDepTime\": \"837\",\r\n                    \"DepDelay\": \"-3\",\r\n                    \"DepDel15\": \"0\",\r\n                    \"CRSArrTime\": \"1138\",\r\n                    \"ArrDelay\": \"1\",\r\n                    \"ArrDel15\": \"0\",\r\n                    \"Cancelled\": \"0\"\r\n              }\r\n          ]\r\n    },\r\n    \"GlobalParameters\":  {\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "http://52.233.18.166:80/api/v1/service/pipeline-created-on-08-04-2020-r/score",
+					"protocol": "http",
+					"host": [
+						"52",
+						"233",
+						"18",
+						"166"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"service",
+						"pipeline-created-on-08-04-2020-r",
+						"score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Analyze Image Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/octet-stream",
+						"description": "Content type for the image",
+						"type": "text"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "fca8bdabb0c8423ca7bc80b3300b1215",
+						"description": "Key for east-us",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Reza/Google Drive/02-O'Reilly/01-Getting Started with Azure Cognitive Services/05-Demo-Material/Vision/pyramids.jpg"
+					}
+				},
+				"url": {
+					"raw": "https://canadacentral.api.cognitive.microsoft.com/vision/v2.1/analyze?visualFeatures=Categories,Color,Description,Objects,Tags&details=Celebrities,Landmarks",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"vision",
+						"v2.1",
+						"analyze"
+					],
+					"query": [
+						{
+							"key": "visualFeatures",
+							"value": "Categories,Color,Description,Objects,Tags"
+						},
+						{
+							"key": "details",
+							"value": "Celebrities,Landmarks"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Face Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/octet-stream",
+						"type": "text"
+					},
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "fca8bdabb0c8423ca7bc80b3300b1215",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Reza/Google Drive/02-O'Reilly/01-Getting Started with Azure Cognitive Services/05-Demo-Material/Vision/Bill_Gates_July_2014.jpg"
+					}
+				},
+				"url": {
+					"raw": "https://canadacentral.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=true&returnFaceLandmarks=true&returnFaceAttributes=age,gender,headPose",
+					"protocol": "https",
+					"host": [
+						"canadacentral",
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"face",
+						"v1.0",
+						"detect"
+					],
+					"query": [
+						{
+							"key": "returnFaceId",
+							"value": "true"
+						},
+						{
+							"key": "returnFaceLandmarks",
+							"value": "true"
+						},
+						{
+							"key": "returnFaceAttributes",
+							"value": "age,gender,headPose"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LUIS Demo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/e7427301-982a-47a8-8818-21dcb004035b?verbose=true&timezoneOffset=0&subscription-key=488567a78e674245b2fc87505fb22ac2&q=can I order two pepperoni pizzas please?",
+					"protocol": "https",
+					"host": [
+						"westus",
+						"api",
+						"cognitive",
+						"microsoft",
+						"com"
+					],
+					"path": [
+						"luis",
+						"v2.0",
+						"apps",
+						"e7427301-982a-47a8-8818-21dcb004035b"
+					],
+					"query": [
+						{
+							"key": "verbose",
+							"value": "true"
+						},
+						{
+							"key": "timezoneOffset",
+							"value": "0"
+						},
+						{
+							"key": "subscription-key",
+							"value": "488567a78e674245b2fc87505fb22ac2"
+						},
+						{
+							"key": "q",
+							"value": "can I order two pepperoni pizzas please?"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "QnA Maker Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "EndpointKey 88e8ab9f-e552-44f5-b0c9-f1177f78cc82",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"question\":\"how can I submit a support ticket?\"}"
+				},
+				"url": {
+					"raw": "https://qnamakercrashdemo01.azurewebsites.net/qnamaker/knowledgebases/c6ebf3bb-8ef5-41d4-a629-e58911cee817/generateAnswer",
+					"protocol": "https",
+					"host": [
+						"qnamakercrashdemo01",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"qnamaker",
+						"knowledgebases",
+						"c6ebf3bb-8ef5-41d4-a629-e58911cee817",
+						"generateAnswer"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
