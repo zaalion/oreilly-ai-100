@@ -28,6 +28,11 @@ Azure Machine Learning vs Machine Learning Studio (classic)
 -----------------------------------------------------------
 https://docs.microsoft.com/en-us/azure/machine-learning/compare-azure-ml-to-studio-classic
 
+What is Machine Learning Server
+-------------------------------
+https://docs.microsoft.com/en-us/machine-learning-server/what-is-machine-learning-server
+https://docs.microsoft.com/en-us/machine-learning-server/install/r-server-install-supported-platforms
+
 What are Azure Cognitive Services?
 ----------------------------------
 https://docs.microsoft.com/en-us/azure/cognitive-services/welcome
@@ -90,6 +95,10 @@ https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-ma
 Azure Databricks: A Brief Introduction
 --------------------------------------
 https://www.youtube.com/watch?v=cxyUy1bZ9mk
+
+Azure Cognitive Search Pricing
+------------------------------
+https://azure.microsoft.com/en-us/pricing/details/search/
 
 Introduction to regulatory compliance
 -------------------------------------
