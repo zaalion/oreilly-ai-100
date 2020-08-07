@@ -37,7 +37,7 @@ https://learning.oreilly.com/videos/azure-search-for/9781771375184
 Microsoft Azure Cognitive Services Crash Course 
 (I'll make it free and provide the link in my LinkedIn and Twitter)
 -------------------------------------------------------------------
-https://www.udemy.com/course/azure-cognitive-services-crash-course/
+https://www.udemy.com/course/azure-cognitive-services-crash-course/?couponCode=AAC99595A46A10037A7D
 
 
 
