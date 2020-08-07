@@ -1,0 +1,3 @@
+Write-Output "Hello World, creating a LUIS resource!"
+
+New-AzCognitiveServicesAccount -ResourceGroupName rg-oreilly-ai100-01 -name myluis -Type LUIS -SkuName S0 -Location 'Canada Central'

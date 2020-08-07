@@ -33,6 +33,14 @@ What is Machine Learning Server
 https://docs.microsoft.com/en-us/machine-learning-server/what-is-machine-learning-server
 https://docs.microsoft.com/en-us/machine-learning-server/install/r-server-install-supported-platforms
 
+PowerShell - Create a Cognitive Service Resource
+------------------------------------------------
+https://docs.microsoft.com/en-us/powershell/module/az.cognitiveservices/new-azcognitiveservicesaccount?view=azps-4.5.0
+
+ARM - Create a Cognitive Service Resource
+-----------------------------------------
+https://docs.microsoft.com/en-us/azure/cognitive-services/resource-manager-template?tabs=portal
+
 What are Azure Cognitive Services?
 ----------------------------------
 https://docs.microsoft.com/en-us/azure/cognitive-services/welcome

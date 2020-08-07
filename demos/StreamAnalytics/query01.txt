@@ -1,0 +1,10 @@
+SELECT
+    Id as EventId,
+    EventTime as time,
+    CAST(TempratureCelcius AS bigint) AS temp,    
+    AnomalyDetection_SpikeAndDip(CAST(TempratureCelcius AS float), 90, 60, 'spikesanddips')
+            OVER(LIMIT DURATION(second, 60)) AS SpikeAndDipScores            
+INTO
+    blobOutput
+FROM
+     tInput
