@@ -1,7 +1,5 @@
 The following course covers all cognitive services.
-I made it free for the next 48 hours. Use the link below to enroll.
 
-
-Microsoft Azure Cognitive Services Crash Course
------------------------------------------------
-https://www.udemy.com/course/azure-cognitive-services-crash-course/?couponCode=AAC99595A46A10037A7D
+Microsoft Azure Cognitive Services Crash Course (paid course after 2020-08-10)
+------------------------------------------------------------------------------
+https://www.udemy.com/course/azure-cognitive-services-crash-course/?referralCode=EE78F34C49858D913E15
