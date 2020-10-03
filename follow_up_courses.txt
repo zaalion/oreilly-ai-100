@@ -1,7 +1,7 @@
-Follow Up Course for AI-100
-===========================
+Follow Up Course for the AI-100 Exam Prepration
+===============================================
 
-https://learning.oreilly.com/home/
+https://learning.oreilly.com/home/ --> search for AI-100
 
 Azure Cognitive Services for Developers
 ---------------------------------------
