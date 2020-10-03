@@ -1,7 +1,0 @@
-My Azure Cognitive Services Pluralsight courses 
------------------------------------------------
-https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-personalizer
-https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-ink-recognizer
-https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-immersive-reader
-https://app.pluralsight.com/library/courses/microsoft-azure-cognitive-services-anomaly-detector
-https://app.pluralsight.com/library/courses/building-customized-translation-systems-azure-cognitive-services-translator

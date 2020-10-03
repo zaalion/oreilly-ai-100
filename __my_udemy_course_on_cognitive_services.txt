@@ -1,5 +1,0 @@
-The following course covers all cognitive services.
-
-Microsoft Azure Cognitive Services Crash Course (paid course after 2020-08-10)
-------------------------------------------------------------------------------
-https://www.udemy.com/course/azure-cognitive-services-crash-course/?referralCode=EE78F34C49858D913E15

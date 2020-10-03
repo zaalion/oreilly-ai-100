@@ -31,22 +31,13 @@ Azure Search for Developers
 ---------------------------
 https://learning.oreilly.com/videos/azure-search-for/9781771375184
 
-
-
-
-Microsoft Azure Cognitive Services Crash Course (paid course after 2020-08-09)
-------------------------------------------------------------------------------
+Microsoft Azure Cognitive Services Crash Course
+-----------------------------------------------
 https://www.udemy.com/course/azure-cognitive-services-crash-course/?referralCode=EE78F34C49858D913E15
-
-
-
 
 Microsoft Azure AI Engineer (AI-100) Pluralsight Path
 -----------------------------------------------------
 https://app.pluralsight.com/paths/certificate/microsoft-azure-ai-engineer-ai-100
-
-
-
 
 My Azure Cognitive Services Pluralsight courses 
 -----------------------------------------------
