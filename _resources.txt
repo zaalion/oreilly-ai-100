@@ -161,6 +161,12 @@ https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-t
 https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-add-qna?view=azure-bot-service-4.0&tabs=csharp
 https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-start-conversation?view=azure-bot-service-3.0
 
+Azure Video Indexer
+-------------------
+https://azure.microsoft.com/en-us/services/media-services/video-indexer/
+https://docs.microsoft.com/en-us/azure/media-services/video-indexer/
+https://www.videoindexer.ai/media/library
+
 FPGA
 ----
 https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#what-are-fpgas
