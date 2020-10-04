@@ -173,6 +173,9 @@ https://azure.microsoft.com/en-ca/services/cognitive-services/language-understan
 https://docs.microsoft.com/en-ca/azure/cognitive-services/luis/
 https://www.luis.ai/ (LUIS portal)
 
+Custom Translator Portal
+------------------------
+https://portal.customtranslator.azure.ai/
 
 FPGA
 ----
