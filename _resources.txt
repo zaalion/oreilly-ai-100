@@ -165,7 +165,14 @@ Azure Video Indexer
 -------------------
 https://azure.microsoft.com/en-us/services/media-services/video-indexer/
 https://docs.microsoft.com/en-us/azure/media-services/video-indexer/
-https://www.videoindexer.ai/media/library
+https://www.videoindexer.ai/media/library (Video Indexer portal)
+
+Language Understanding
+----------------------
+https://azure.microsoft.com/en-ca/services/cognitive-services/language-understanding-intelligent-service/
+https://docs.microsoft.com/en-ca/azure/cognitive-services/luis/
+https://www.luis.ai/ (LUIS portal)
+
 
 FPGA
 ----
@@ -185,6 +192,10 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/bing-custom-search/tut
 https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-custom-voice-create-voice
 https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-custom-speech
 https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/review-tool-user-guide/human-in-the-loop
+
+Azure Custom Visio Portal
+-------------------------
+https://www.customvision.ai/
 
 Azure Stream Analytics
 ----------------------
