@@ -48,6 +48,7 @@ namespace EchoBot1.Bots
 
         private async Task AccessQnAMaker(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
+            // https://www.nps.gov/aboutus/faqs.htm
             var results = await EchoBotQnA.GetAnswersAsync(turnContext);
             if (results.Any())
             {
