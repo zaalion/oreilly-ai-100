@@ -222,6 +222,10 @@ https://docs.microsoft.com/en-us/azure/search/search-what-is-azure-search
 https://docs.microsoft.com/en-us/azure/search/cognitive-search-defining-skillset
 https://docs.microsoft.com/en-us/azure/search/search-get-started-portal
 
+Dictionary
+----------
+https://docs.microsoft.com/en-us/azure/cognitive-services/translator/custom-translator/what-is-dictionary
+
 
 
 
