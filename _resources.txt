@@ -161,6 +161,14 @@ https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-t
 https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-add-qna?view=azure-bot-service-4.0&tabs=csharp
 https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-start-conversation?view=azure-bot-service-3.0
 
+Bot Framework Composer (Visual Designer Tool)
+---------------------------------------------
+https://docs.microsoft.com/en-us/composer/introduction
+
+Bot Framework C# Template
+-------------------------
+https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-basic-deploy?view=azure-bot-service-4.0&tabs=csharp%2Cvs
+
 Azure Video Indexer
 -------------------
 https://azure.microsoft.com/en-us/services/media-services/video-indexer/
